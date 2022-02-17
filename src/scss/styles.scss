@@ -2,3 +2,16 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+@import "./variables";
+@import "./mixin";
+
+//components styles 
+@import "./menu";
+@import "./dashboard";
+
+
+body {
+    background-color: whitesmoke;
+}
+

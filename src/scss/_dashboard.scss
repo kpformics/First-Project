@@ -1,0 +1,40 @@
+h2 {
+    font-size: 50px;
+    color:$secondary-color;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 250px;
+}
+.open-tab {
+    @include open-tab;
+   
+     h3 {
+        color:$primary-color;    
+    }
+    #d_search {
+        width: 600px;
+        height:40px; 
+        border:1px solid $secondary-color;  
+        border-radius: 5px;    
+    }
+       
+}
+.home {
+    @include content_box;
+    
+}
+.das-btn {
+    height:200px;
+    width:250px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color:$secondary-color;
+    border: transparent;
+    color: $primary-color;
+    font-weight: bold;
+
+    &:hover{
+        box-shadow: 0px 2px 2px 5px $secondary-color;
+        font-size:28px; 
+    }
+}
