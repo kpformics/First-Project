@@ -9,13 +9,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MenuComponent } from './my-components/menu/menu.component';
 import { DashboardComponent } from './my-components/dashboard/dashboard.component';
-
+import { AllEmployeesComponent } from './my-components/all-employees/all-employees.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     DashboardComponent,
+    AllEmployeesComponent
   ],
   imports: [
     BrowserModule,
