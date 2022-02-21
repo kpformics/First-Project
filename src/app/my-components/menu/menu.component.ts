@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {  faEye, faHome, faUserGroup, faUserPen, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-menu',
@@ -6,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-  active = 'Dashboard';
+   home = faHome;
+   all = faUserGroup;
+   add = faUserPlus;
+   view = faEye;
+   edit = faUserPen;
   
   constructor() { }
 

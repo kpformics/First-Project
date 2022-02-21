@@ -7,7 +7,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:$primary-color;
+    background: linear-gradient(to bottom, #047575 65%, rgb(174, 233, 233) 100%);
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -34,16 +34,19 @@ ul {
         &:hover {
             background-color: whitesmoke;   
         }
-
         a{
             text-decoration: none;
             color: $secondary-color;
             font-size:18px;
-            
+               
             &:hover{
-                 color:$primary-color;
+                color:darken($color: $secondary-color, $amount: 20);
                 font-weight: 500;
-            }
+            }          
+        }
+        .menu-icon {
+            color:$secondary-color;
+            padding-right:15px;
         }
     }
 }
