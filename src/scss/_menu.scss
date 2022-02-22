@@ -7,12 +7,12 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, #047575 65%, rgb(174, 233, 233) 100%);
+    background: $menu-bg;
     overflow-x: hidden;
     padding-top: 20px;
 }
 h1 {
-    color:white;
+    color:$white;
     margin-top: 20px;
     text-align: center;
     font-size: 30px;
@@ -32,8 +32,9 @@ ul {
         width: 260px;
        
         &:hover {
-            background-color: whitesmoke;   
+            background-color: $whitesmoke;   
         }
+       
         a{
             text-decoration: none;
             color: $secondary-color;

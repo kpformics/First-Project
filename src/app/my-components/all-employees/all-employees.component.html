@@ -1,1 +1,388 @@
-<p>all-employees works!</p>
+
+<div class="employees-tab">
+    <h3> All-Employees </h3>
+    <button class="add-new"> + Add New Employee </button>
+</div>
+ <hr>
+ <!-- ******************************************************************** -->
+
+<div class="container-employees">
+
+  <div class="top-part">
+    <input type="search" id="all-search" placeholder="Search by name">
+
+    <button class="list" onclick="listView()"><fa-icon [icon]="list"></fa-icon> List</button> 
+    <button class="grid" onclick="gridView()"><fa-icon [icon]="grid"></fa-icon> Grid</button>
+  </div>
+
+    
+      <div class="row" style=" margin-top:40px;">
+       
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                  <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+  
+                  <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+  
+                  <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+  
+  
+  
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+  
+  
+        
+
+        <!-- row end -->
+      </div>
+
+
+     <div class="row">
+     
+      <div class="column">
+        <div class="card">         
+          <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+          
+          <div class="details">
+            <h4>Jane Doe</h4>
+            <p class="title">Developer</p>
+            <p>example@example.com</p>
+            <p>+918786889869</p>
+            <p>
+              <button class="action-btn">
+                <fa-icon [icon]="view"></fa-icon>
+               </button>
+
+               <button class="action-btn">
+                <fa-icon [icon]="edit"></fa-icon>
+               </button>
+
+               <button class="action-btn">
+                <fa-icon [icon]="del"></fa-icon>
+               </button>
+            </p>
+         
+          </div>
+        </div>
+      </div>
+
+
+
+      
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+      
+
+
+
+      
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+      
+
+
+
+      
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+      
+      <!-- row end -->
+      </div>
+
+
+      <div class="row">
+       
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+  
+  
+  
+        <div class="column">
+          <div class="card">         
+            <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
+            
+            <div class="details">
+              <h4>Jane Doe</h4>
+              <p class="title">Developer</p>
+              <p>example@example.com</p>
+              <p>+918786889869</p>
+              <p>
+                <button class="action-btn">
+                  <fa-icon [icon]="view"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="edit"></fa-icon>
+                 </button>
+  
+                 <button class="action-btn">
+                  <fa-icon [icon]="del"></fa-icon>
+                 </button>
+              </p>
+           
+            </div>
+          </div>
+        </div>
+  
+  
+        
+
+        <!-- row end -->
+      </div>
+
+
+
+<!-- container end -->
+  </div>

@@ -7,11 +7,14 @@
 @import "./mixin";
 
 //components styles 
+@import "./default";
 @import "./menu";
 @import "./dashboard";
+@import "./employees";
+@import "./add";
 
 
 body {
-    background-color: whitesmoke;
+    background-color: $whitesmoke;
 }
 

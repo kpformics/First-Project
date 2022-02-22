@@ -1,11 +1,8 @@
-<h2>
-    Welcome to <br> Employee - Management System
-</h2>
 
 
 <div class="open-tab">
     <h3>Dashboard</h3>
-    <input type="search" id="d_search" placeholder="Search Employees">
+    <input type="search" class="d_search" placeholder="Search Employees">
 </div>
  <hr> 
 
@@ -13,7 +10,7 @@
 
 <div class="home">
   
-   <a href="#All-Employees"> 
+    <a routerLink="/allemployees-component" routerLinkActive="active">
        <fa-icon [icon]="all" class="fa-2x home-icon"></fa-icon>
        <button class="das-btn"> All Employees </button>
    </a>

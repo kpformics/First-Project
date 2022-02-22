@@ -10,13 +10,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuComponent } from './my-components/menu/menu.component';
 import { DashboardComponent } from './my-components/dashboard/dashboard.component';
 import { AllEmployeesComponent } from './my-components/all-employees/all-employees.component';
+import { DefaultScreenComponent } from './my-components/default-screen/default-screen.component';
+import { AddEmployeeComponent } from './my-components/add-employee/add-employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     DashboardComponent,
-    AllEmployeesComponent
+    AllEmployeesComponent,
+    DefaultScreenComponent,
+    AddEmployeeComponent
   ],
   imports: [
     BrowserModule,
