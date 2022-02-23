@@ -7,11 +7,12 @@
             @include h3;
         }
     }
-    .d_search {
+    #d_search {
         width: 600px;
         height:40px; 
         border:none;
-        padding-left: 15px; 
+        padding-left: 15px;
+        margin-top: -3px; 
 
         &:hover {
             box-shadow: $hover;
