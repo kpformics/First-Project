@@ -12,6 +12,8 @@ import { DashboardComponent } from './my-components/dashboard/dashboard.componen
 import { AllEmployeesComponent } from './my-components/all-employees/all-employees.component';
 import { DefaultScreenComponent } from './my-components/default-screen/default-screen.component';
 import { AddEmployeeComponent } from './my-components/add-employee/add-employee.component';
+import { ViewEmployeeComponent } from './my-components/view-employee/view-employee.component';
+import { EditEmployeeComponent } from './my-components/edit-employee/edit-employee.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AddEmployeeComponent } from './my-components/add-employee/add-employee.
     DashboardComponent,
     AllEmployeesComponent,
     DefaultScreenComponent,
-    AddEmployeeComponent
+    AddEmployeeComponent,
+    ViewEmployeeComponent,
+    EditEmployeeComponent
   ],
   imports: [
     BrowserModule,

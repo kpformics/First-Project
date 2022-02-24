@@ -23,7 +23,6 @@
 // **************************************************************
 .container-employees {
     @include content_box;
-    overflow: auto; 
    flex-direction: column; 
    
 }
