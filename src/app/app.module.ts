@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +30,7 @@ import { EditEmployeeComponent } from './my-components/edit-employee/edit-employ
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     FontAwesomeModule,
     AppRoutingModule,
     NgbModule,
