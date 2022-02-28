@@ -34,8 +34,8 @@ data:any = {
 
 
   dosubmitform() {
-    console.log("try to submit form");
-    console.log("DATA", this.data);
+    alert("submit");
+     console.log("DATA", this.data); 
   }
 
 }

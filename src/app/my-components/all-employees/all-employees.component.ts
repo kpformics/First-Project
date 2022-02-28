@@ -19,5 +19,6 @@ export class AllEmployeesComponent implements OnInit {
 
   ngOnInit(): void {
   }
+ 
 
 }
