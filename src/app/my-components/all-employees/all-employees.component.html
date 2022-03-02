@@ -8,7 +8,7 @@
  <hr>
  <!-- ******************************************************************** -->
 
-<div class="container-employees">
+<div class="container-employees" *ngFor="let employee of employees">
 
   <div class="top-part">
     <input type="search" id="all-search" placeholder="Search by name">
@@ -24,16 +24,17 @@
           <div class="card">         
             <fa-icon [icon]="avtar" class="avtar fa-5x"></fa-icon>   
             
-            <div class="details">
-              <h4>Jane Doe</h4>
+            <div class="details" > 
+              <h4>Jone mariya</h4>
               <p class="title">Developer</p>
               <p>example@example.com</p>
-              <p>+918786889869</p>
-              <p>
-                
+              <p>+918786889869</p> 
+              <p> 
+                <a routerLink="/viewemployee-component">  
                 <button class="action-btn">
                   <fa-icon [icon]="view"></fa-icon>
                  </button>
+                </a> 
 
                  <button class="action-btn">
                   <fa-icon [icon]="edit"></fa-icon>
@@ -42,8 +43,7 @@
                  <button class="action-btn">
                   <fa-icon [icon]="del"></fa-icon>
                  </button>
-              </p>
-           
+              </p>           
             </div>
           </div>
         </div>

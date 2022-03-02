@@ -17,6 +17,8 @@ import { AddEmployeeComponent } from './my-components/add-employee/add-employee.
 import { ViewEmployeeComponent } from './my-components/view-employee/view-employee.component';
 import { EditEmployeeComponent } from './my-components/edit-employee/edit-employee.component';
 
+import { EmployeeService} from './services/employee.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +38,7 @@ import { EditEmployeeComponent } from './my-components/edit-employee/edit-employ
     NgbModule,
     
   ],
-  providers: [],
+  providers: [ EmployeeService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

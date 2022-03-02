@@ -8,15 +8,17 @@
 <hr>
 <!-- ******************************************************************** -->
 
-<div class="container-view-employee">
+<div class="container-view-employee" *ngFor="let employee of employees">
 
     <fa-icon [icon]="avtar" class="fa-10x avtar-add "></fa-icon> <br>
 
     <div class="personal-details">
         <h5 class="h5"> Personal details </h5>  <!-- h5 design is _add.scss -->
         
+        <!-- {{employee.id}} -->
+
         <label for="name">Name :</label> 
-        john doe <br><br>
+         <!-- {{employee.name}} <br><br> -->
 
         <label for="birthdate">  Birth-Date : </label> 
          26 nov,1998 <br><br>

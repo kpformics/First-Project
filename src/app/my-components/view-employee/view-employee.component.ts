@@ -9,6 +9,8 @@ import { faUserTie } from '@fortawesome/free-solid-svg-icons';
 export class ViewEmployeeComponent implements OnInit {
   avtar = faUserTie;
 
+  public employees = [];
+
   constructor() { }
 
   ngOnInit(): void {
